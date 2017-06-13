@@ -1,0 +1,75 @@
+#matrix{
+	margin-left: 80px;
+	margin-top: 100px;
+	float: left;
+	width: 440px;
+	height: 440px;
+	border-left: 1px solid #111;
+	border-top: 1px solid #111;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	
+}
+#battleLog{
+	color: #1F18E2;
+	float: left;
+	font-size: 16px;
+}
+#div1{
+	float:left;
+	width: 385px;
+	margin-top: 75px;
+	height: 450px;
+	text-align:center;
+}
+#text{
+	text-align:center; 
+	font-family:Monotype Corsiva;
+	font-size:28px;
+	color:blue;
+}
+/*
+body {
+    background-image: url("backgroundIMG.jpg");
+    background-color: #cccccc;
+	background-size: cover;
+}
+*/
+#matrixEnemy{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 440px;
+	height: 440px;
+	border-left: 1px solid #111;
+	border-top: 1px solid #111;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.cell{
+	text-align: center;
+	line-height: 39px;
+	float:left;
+	width: 39px;
+	height: 39px;
+	border-bottom: 1px solid #111;
+	border-right: 1px solid #111;
+}
+#but{
+	background: -moz-linear-gradient(#00BBD6, #EBFFFF);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+	margin-top: 10px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
